@@ -1,0 +1,8 @@
+services:
+  sokrat:
+    build: .
+    container_name: sokrat
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./data:/app/data
