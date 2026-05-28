@@ -30,7 +30,7 @@ class LinkRecord:
 
 # хранилище ссылок и статистики (с json файлом)
 class LinkStorage:
-    def __init__(self, limit, filename="/app/data/storage.json"):
+    def __init__(self, limit, filename="storage.json"):
         self.limit = limit
         self.filename = filename
         # для хранения записей в памяти
